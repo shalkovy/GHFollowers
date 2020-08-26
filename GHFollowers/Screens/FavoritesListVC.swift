@@ -1,5 +1,5 @@
 //
-//  FavoriteListViewController.swift
+//  FavoritesListVC.swift
 //  GHFollowers
 //
 //  Created by Dima Shelkov on 8/25/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FavoriteListViewController: UIViewController {
+class FavoritesListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

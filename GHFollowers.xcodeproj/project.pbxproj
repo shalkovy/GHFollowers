@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		D18AE72F24F5782200BF64F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE72E24F5782200BF64F3 /* AppDelegate.swift */; };
 		D18AE73124F5782200BF64F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE73024F5782200BF64F3 /* SceneDelegate.swift */; };
-		D18AE73324F5782200BF64F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE73224F5782200BF64F3 /* ViewController.swift */; };
 		D18AE73824F5782700BF64F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18AE73724F5782700BF64F3 /* Assets.xcassets */; };
 		D18AE73B24F5782700BF64F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18AE73924F5782700BF64F3 /* LaunchScreen.storyboard */; };
+		D18AE74324F5811500BF64F3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE74224F5811500BF64F3 /* SearchViewController.swift */; };
+		D18AE74524F5814000BF64F3 /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE74424F5814000BF64F3 /* FavoriteListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D18AE72B24F5782200BF64F3 /* GHFolollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFolollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18AE72B24F5782200BF64F3 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18AE72E24F5782200BF64F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D18AE73024F5782200BF64F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D18AE73224F5782200BF64F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D18AE73724F5782700BF64F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D18AE73A24F5782700BF64F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D18AE73C24F5782700BF64F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18AE74224F5811500BF64F3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D18AE74424F5814000BF64F3 /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		D18AE72224F5782200BF64F3 = {
 			isa = PBXGroup;
 			children = (
-				D18AE72D24F5782200BF64F3 /* GHFolollowers */,
+				D18AE72D24F5782200BF64F3 /* GHFollowers */,
 				D18AE72C24F5782200BF64F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		D18AE72C24F5782200BF64F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D18AE72B24F5782200BF64F3 /* GHFolollowers.app */,
+				D18AE72B24F5782200BF64F3 /* GHFollowers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D18AE72D24F5782200BF64F3 /* GHFolollowers */ = {
+		D18AE72D24F5782200BF64F3 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
 				D18AE72E24F5782200BF64F3 /* AppDelegate.swift */,
 				D18AE73024F5782200BF64F3 /* SceneDelegate.swift */,
-				D18AE73224F5782200BF64F3 /* ViewController.swift */,
+				D18AE74224F5811500BF64F3 /* SearchViewController.swift */,
+				D18AE74424F5814000BF64F3 /* FavoriteListViewController.swift */,
 				D18AE73724F5782700BF64F3 /* Assets.xcassets */,
 				D18AE73924F5782700BF64F3 /* LaunchScreen.storyboard */,
 				D18AE73C24F5782700BF64F3 /* Info.plist */,
 			);
-			path = GHFolollowers;
+			path = GHFollowers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D18AE72A24F5782200BF64F3 /* GHFolollowers */ = {
+		D18AE72A24F5782200BF64F3 /* GHFollowers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D18AE73F24F5782700BF64F3 /* Build configuration list for PBXNativeTarget "GHFolollowers" */;
+			buildConfigurationList = D18AE73F24F5782700BF64F3 /* Build configuration list for PBXNativeTarget "GHFollowers" */;
 			buildPhases = (
 				D18AE72724F5782200BF64F3 /* Sources */,
 				D18AE72824F5782200BF64F3 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = GHFolollowers;
+			name = GHFollowers;
 			productName = GHFolollowers;
-			productReference = D18AE72B24F5782200BF64F3 /* GHFolollowers.app */;
+			productReference = D18AE72B24F5782200BF64F3 /* GHFollowers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D18AE72624F5782200BF64F3 /* Build configuration list for PBXProject "GHFolollowers" */;
+			buildConfigurationList = D18AE72624F5782200BF64F3 /* Build configuration list for PBXProject "GHFollowers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D18AE72A24F5782200BF64F3 /* GHFolollowers */,
+				D18AE72A24F5782200BF64F3 /* GHFollowers */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18AE73324F5782200BF64F3 /* ViewController.swift in Sources */,
+				D18AE74524F5814000BF64F3 /* FavoriteListViewController.swift in Sources */,
+				D18AE74324F5811500BF64F3 /* SearchViewController.swift in Sources */,
 				D18AE72F24F5782200BF64F3 /* AppDelegate.swift in Sources */,
 				D18AE73124F5782200BF64F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -274,13 +278,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26PXP4V49P;
-				INFOPLIST_FILE = GHFolollowers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GHFollowers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = d.shelkov.GHFolollowers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = d.shelkov.GHFollowers;
+				PRODUCT_NAME = GHFollowers;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -292,13 +296,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26PXP4V49P;
-				INFOPLIST_FILE = GHFolollowers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GHFollowers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = d.shelkov.GHFolollowers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = d.shelkov.GHFollowers;
+				PRODUCT_NAME = GHFollowers;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -307,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D18AE72624F5782200BF64F3 /* Build configuration list for PBXProject "GHFolollowers" */ = {
+		D18AE72624F5782200BF64F3 /* Build configuration list for PBXProject "GHFollowers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D18AE73D24F5782700BF64F3 /* Debug */,
@@ -316,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D18AE73F24F5782700BF64F3 /* Build configuration list for PBXNativeTarget "GHFolollowers" */ = {
+		D18AE73F24F5782700BF64F3 /* Build configuration list for PBXNativeTarget "GHFollowers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D18AE74024F5782700BF64F3 /* Debug */,

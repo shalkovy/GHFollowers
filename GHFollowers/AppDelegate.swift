@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  GHFolollowers
+//  GHFollowers
 //
 //  Created by Dima Shelkov on 8/25/20.
 //  Copyright © 2020 Dima Shelkov. All rights reserved.

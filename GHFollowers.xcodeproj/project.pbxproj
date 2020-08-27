@@ -18,6 +18,8 @@
 		D169274224F7C84F00681D68 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169274124F7C84F00681D68 /* User.swift */; };
 		D169274524F7D33E00681D68 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169274424F7D33E00681D68 /* NetworkManager.swift */; };
 		D169274824F7F0FE00681D68 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169274724F7F0FE00681D68 /* GFError.swift */; };
+		D169274B24F82E2F00681D68 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169274A24F82E2F00681D68 /* FollowerCell.swift */; };
+		D169274D24F82EAA00681D68 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169274C24F82EAA00681D68 /* GFAvatarImageView.swift */; };
 		D18AE72F24F5782200BF64F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE72E24F5782200BF64F3 /* AppDelegate.swift */; };
 		D18AE73124F5782200BF64F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18AE73024F5782200BF64F3 /* SceneDelegate.swift */; };
 		D18AE73824F5782700BF64F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18AE73724F5782700BF64F3 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		D169274124F7C84F00681D68 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D169274424F7D33E00681D68 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D169274724F7F0FE00681D68 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		D169274A24F82E2F00681D68 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		D169274C24F82EAA00681D68 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		D18AE72B24F5782200BF64F3 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18AE72E24F5782200BF64F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D18AE73024F5782200BF64F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,11 +76,13 @@
 		D116008F24F6A2EE007664F7 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				D169274924F82E0900681D68 /* Cells */,
 				D116008024F6447F007664F7 /* GFButton.swift */,
 				D116008224F647AB007664F7 /* GFTextField.swift */,
 				D116008624F68FAB007664F7 /* GFTitleLabel.swift */,
 				D116008824F69114007664F7 /* GFBodyLabel.swift */,
 				D116008A24F691ED007664F7 /* GFAlertVC.swift */,
+				D169274C24F82EAA00681D68 /* GFAvatarImageView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -124,6 +130,14 @@
 				D169274724F7F0FE00681D68 /* GFError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D169274924F82E0900681D68 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D169274A24F82E2F00681D68 /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D18AE72224F5782200BF64F3 = {
@@ -231,8 +245,10 @@
 				D18AE74524F5814000BF64F3 /* FavoritesListVC.swift in Sources */,
 				D116008124F6447F007664F7 /* GFButton.swift in Sources */,
 				D116008D24F69AD4007664F7 /* UIViewController+Ext.swift in Sources */,
+				D169274D24F82EAA00681D68 /* GFAvatarImageView.swift in Sources */,
 				D18AE74324F5811500BF64F3 /* SearchVC.swift in Sources */,
 				D116008B24F691ED007664F7 /* GFAlertVC.swift in Sources */,
+				D169274B24F82E2F00681D68 /* FollowerCell.swift in Sources */,
 				D169274824F7F0FE00681D68 /* GFError.swift in Sources */,
 				D116008924F69114007664F7 /* GFBodyLabel.swift in Sources */,
 				D169274024F7C73F00681D68 /* Follower.swift in Sources */,

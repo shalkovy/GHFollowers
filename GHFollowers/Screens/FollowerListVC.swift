@@ -61,6 +61,13 @@ class FollowerListVC: UIViewController {
             case .success(let followers):
                 if followers.count < 99 { self.hasMoreFollowers = false }
                 self.followers.append(contentsOf: followers)
+                
+                if self.followers.isEmpty {
+                    let message = "This user doesn't have any followers. Go follow them!"
+                    DispatchQueue.main.async { self.showEmptyStateView(with: message, in: self.view) }
+                    return
+                }
+                
                 self.updateData()
                 
             case .failure(let error):
@@ -72,9 +79,9 @@ class FollowerListVC: UIViewController {
     
     private func configureDataSource() {
         dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { (collectionView, indexPath, follower) -> UICollectionViewCell? in
-                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCell.reuseID, for: indexPath) as! FollowerCell
-                cell.set(with: follower)
-                return cell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCell.reuseID, for: indexPath) as! FollowerCell
+            cell.set(with: follower)
+            return cell
         })
     }
     
